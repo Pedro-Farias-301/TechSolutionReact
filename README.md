@@ -10,3 +10,25 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+# TechSolution
+
+# TechSolution
+
+Website da TechSolution, desenvolvido com React, Vite, Tailwind CSS e DaisyUI.
+
+## Descrição
+Este projeto é um site para a TechSolution, uma empresa fictícia que oferece soluções tecnológicas. Inclui páginas como Home, Sobre, Serviços e Contato, com navegação usando `react-router-dom`.
+
+## Tecnologias
+- React
+- Vite
+- Tailwind CSS
+- DaisyUI
+- React Router
+
+## Como rodar
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/Pedro-Farias-301/TechSolutionReact.git
+
