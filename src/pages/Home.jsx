@@ -9,8 +9,7 @@ function Home() {
           <div className="text-center lg:text-left">
             <h1 className="text-5xl font-bold">Bem-vindo à TechSolution</h1>
             <p className="py-6">
-              Oferecemos as melhores soluções tecnológicas para o seu negócio. Explore nossos
-              serviços e entre em contato!
+              Junte-se à plataforma que conecta talentos, desafios e conhecimento para criar soluções impactantes!
             </p>
           </div>
         </div>
@@ -29,20 +28,20 @@ function Home() {
         <div className="card bg-base-100 w-96 shadow-sm">
           <figure>
             <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              src="./public/slide1.jpg"
               alt="Software"
               className="w-full h-48 object-cover"
             />
           </figure>
           <div className="card-body">
             <h2 className="card-title">
-              Solução 1
+              Estudantes
               <div className="badge badge-primary"></div>
             </h2>
-            <p>Desenvolvimento de software personalizado para atender às suas necessidades específicas.</p>
+            <p>Construa um portifólio que mostre seu talento e conquiste Oportunidades únicas!</p>
             <div className="card-actions justify-end">
-              <div className="badge badge-outline">Software</div>
-              <div className="badge badge-outline">Customização</div>
+              <div className="badge badge-outline">Experiência</div>
+              <div className="badge badge-outline">Portifolio</div>
             </div>
           </div>
         </div>
@@ -51,20 +50,20 @@ function Home() {
         <div className="card bg-base-100 w-96 shadow-sm">
           <figure>
             <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              src="./public/slide2.jfif"
               alt="Consultoria"
               className="w-full h-48 object-cover"
             />
           </figure>
           <div className="card-body">
             <h2 className="card-title">
-              Solução 2
+              Comunidade
               <div className="badge badge-primary"></div>
             </h2>
-            <p>Consultoria em TI para otimizar sua infraestrutura e processos tecnológicos.</p>
+            <p>Veja seu negócio crescer ao colaborar com uma equipe dedicada e criativa de jovens extremamente talentosos!</p>
             <div className="card-actions justify-end">
               <div className="badge badge-outline">Consultoria</div>
-              <div className="badge badge-outline">TI</div>
+              <div className="badge badge-outline">Software</div>
             </div>
           </div>
         </div>
@@ -73,20 +72,20 @@ function Home() {
         <div className="card bg-base-100 w-96 shadow-sm">
           <figure>
             <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              src="./public/slide3.jfif"
               alt="Cloud"
               className="w-full h-48 object-cover"
             />
           </figure>
           <div className="card-body">
             <h2 className="card-title">
-              Solução 3
+              Mentores
               <div className="badge badge-primary"></div>
             </h2>
-            <p>Soluções em nuvem para maior escalabilidade e segurança dos seus dados.</p>
+            <p>Torne-se um mentor e faça parte de uma comunidade que valoriza e reconhece sua contribuição!</p>
             <div className="card-actions justify-end">
-              <div className="badge badge-outline">Cloud</div>
-              <div className="badge badge-outline">Segurança</div>
+              <div className="badge badge-outline">Liderança</div>
+              <div className="badge badge-outline">Conhecimento</div>
             </div>
           </div>
         </div>
@@ -105,7 +104,8 @@ function Home() {
           <div className="max-w-md">
             <h1 className="mb-5 text-5xl font-bold">Bem-vindo à TechSolution</h1>
             <p className="mb-5">
-              Faça login ou inscreva-se para acessar nossas soluções exclusivas e começar sua jornada com a TechSolution!
+              Uma plataforma projetada para conectar estudantes, comunidade e mentores, criando soluções e oportunidades para todos,
+              Faça Login ou Cadastre-se para fazer parte!
             </p>
             <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
               <div className="card-body">
@@ -113,7 +113,7 @@ function Home() {
                   <label className="label">Email</label>
                   <input type="email" className="input" placeholder="Email" />
                   <label className="label">Senha</label>
-                  <input type="password" className="input" placeholder="Password" />
+                  <input type="password" className="input" placeholder="Senha" />
                   <div>
                     <a className="link link-hover">Esqueceu a senha?</a>
                   </div>
