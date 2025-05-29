@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function Signup() {
   return (
     <div className="min-h-screen bg-base-200 flex items-center justify-center">
@@ -11,15 +13,15 @@ function Signup() {
             <input type="email" className="input" placeholder="Email" />
             <label className="label">Senha</label>
             <input type="password" className="input" placeholder="Password" />
-            <label className="label">Confirmar Senha</label>
-            <input type="password" className="input" placeholder="Confirmar Password" />
-            <button className="btn btn-primary mt-4">Criar Conta</button>
+            <Link to="/login" className="btn btn-primary mt-4 w-full">
+              Criar Conta
+            </Link>
           </fieldset>
           <p className="text-center mt-4">
             Já tem uma conta?{' '}
-            <a href="/" className="link link-hover">
+            <Link to="/login" className="link link-hover">
               Faça login
-            </a>
+            </Link>
           </p>
         </div>
       </div>
