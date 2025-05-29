@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function About() {
   return (
     <div>
@@ -54,9 +56,9 @@ function About() {
       <div className="p-4 text-center">
         <h1 className="text-4xl font-bold mb-4">Sobre a TechSolution</h1>
         <p className="mb-4">
-          Fundada com a missão de transformar ideias em soluções tecnológicas inovadoras, a TechSolution
-          tem mais de 5 anos de experiência ajudando empresas a prosperarem no mundo digital. Nosso
-          compromisso é oferecer serviços de alta qualidade com foco em resultados.
+          Fundada com a missão de transformar ideias em soluções tecnológicas inovadoras, a
+          TechSolution tem mais de 5 anos de experiência ajudando empresas a prosperarem no mundo
+          digital. Nosso compromisso é oferecer serviços de alta qualidade com foco em resultados.
         </p>
         <div className="flex flex-col md:flex-row gap-4 justify-center">
           <div className="card bg-base-100 w-80 shadow-sm">
@@ -126,7 +128,7 @@ function About() {
         </div>
       </div>
 
-      {/* Seção Hero */}
+      {/* Seção Hero com dois botões */}
       <div
         className="hero min-h-screen"
         style={{
@@ -142,7 +144,10 @@ function About() {
               Junte-se a nós nesta jornada de inovação e cresça com a TechSolution. Estamos prontos
               para transformar seu futuro!
             </p>
-            <button className="btn btn-primary">Saiba Mais</button>
+            <div className="flex gap-2">
+              <button className="btn btn-neutral flex-1">Fazer Login</button>
+              <Link to="/signup" className="btn btn-primary flex-1">Inscrever-se</Link>
+            </div>
           </div>
         </div>
       </div>

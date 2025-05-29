@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function Students() {
   return (
     <div>
@@ -52,7 +54,6 @@ function Students() {
 
       {/* Cards entre o Carrossel e o Hero */}
       <div className="flex flex-col md:flex-row gap-4 p-4 justify-center">
-        {/* Card 1 */}
         <div className="card bg-base-100 w-96 shadow-sm">
           <figure>
             <img
@@ -73,8 +74,6 @@ function Students() {
             </div>
           </div>
         </div>
-
-        {/* Card 2 */}
         <div className="card bg-base-100 w-96 shadow-sm">
           <figure>
             <img
@@ -95,8 +94,6 @@ function Students() {
             </div>
           </div>
         </div>
-
-        {/* Card 3 */}
         <div className="card bg-base-100 w-96 shadow-sm">
           <figure>
             <img
@@ -119,7 +116,7 @@ function Students() {
         </div>
       </div>
 
-      {/* Seção Hero */}
+      {/* Seção Hero com dois botões */}
       <div
         className="hero min-h-screen"
         style={{
@@ -135,7 +132,10 @@ function Students() {
               Aqui você encontrará recursos exclusivos para estudantes da TechSolution. Explore
               materiais, suporte e oportunidades de aprendizado.
             </p>
-            <button className="btn btn-primary">Começar Agora</button>
+            <div className="flex gap-2 mt-4">
+              <Link to="/login" className="btn btn-neutral flex-1">Fazer Login</Link>
+              <Link to="/signup" className="btn btn-primary flex-1">Inscrever-se</Link>
+            </div>
           </div>
         </div>
       </div>

@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function Mentors() {
   return (
     <div>
@@ -119,7 +121,7 @@ function Mentors() {
         </div>
       </div>
 
-      {/* Seção Hero */}
+      {/* Seção Hero com dois botões */}
       <div
         className="hero min-h-screen"
         style={{
@@ -132,9 +134,13 @@ function Mentors() {
           <div className="max-w-md">
             <h1 className="mb-5 text-5xl font-bold">Página para Mentores</h1>
             <p className="mb-5">
-              Conecte-se com mentores experientes da TechSolution para orientação e suporte. Cresça profissionalmente com quem já trilhou o caminho!
+              Conecte-se com mentores experientes da TechSolution para orientação e suporte. Cresça
+              profissionalmente com quem já trilhou o caminho!
             </p>
-            <button className="btn btn-primary">Conecte-se Agora</button>
+            <div className="flex gap-2 mt-4">
+              <Link to="/login" className="btn btn-neutral flex-1">Fazer Login</Link>
+              <Link to="/signup" className="btn btn-primary flex-1">Inscrever-se</Link>
+            </div>
           </div>
         </div>
       </div>

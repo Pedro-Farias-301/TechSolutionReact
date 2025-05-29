@@ -6,6 +6,8 @@ import Home from './pages/Home';
 import Students from './pages/Students';
 import Communities from './pages/Communities';
 import Mentors from './pages/Mentors';
+import Signup from './pages/Signup';
+import Login from './pages/Login';
 import About from './pages/About';
 
 
@@ -22,6 +24,9 @@ function App() {
             <Route path="/Comunidade" element={<Communities/>} />
             <Route path="/Mentores" element={<Mentors/>} />
             <Route path="/About" element={<About/>} />
+            <Route path="/signup" element={<Signup />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/portfolio" element={<div>Portfolio</div>} />
           </Routes>
         </main>
         <Footer />
