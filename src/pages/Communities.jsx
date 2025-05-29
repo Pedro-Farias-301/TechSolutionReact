@@ -1,4 +1,4 @@
-function About() {
+function Communities() {
   return (
     <div>
       {/* Carrossel */}
@@ -7,7 +7,7 @@ function About() {
           <img
             src="https://img.daisyui.com/images/stock/photo-1625726411847-3d28f9e4895e.webp"
             className="w-full h-64 object-cover"
-            alt="Equipe 1"
+            alt="Comunidade 1"
           />
           <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
             <a href="#slide3" className="btn btn-circle">
@@ -22,7 +22,7 @@ function About() {
           <img
             src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1705.webp"
             className="w-full h-64 object-cover"
-            alt="Equipe 2"
+            alt="Comunidade 2"
           />
           <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
             <a href="#slide1" className="btn btn-circle">
@@ -37,7 +37,7 @@ function About() {
           <img
             src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
             className="w-full h-64 object-cover"
-            alt="Equipe 3"
+            alt="Comunidade 3"
           />
           <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
             <a href="#slide2" className="btn btn-circle">
@@ -50,77 +50,70 @@ function About() {
         </div>
       </div>
 
-      {/* Seção de Texto e Missão/Visão */}
-      <div className="p-4 text-center">
-        <h1 className="text-4xl font-bold mb-4">Sobre a TechSolution</h1>
-        <p className="mb-4">
-          Fundada com a missão de transformar ideias em soluções tecnológicas inovadoras, a TechSolution
-          tem mais de 5 anos de experiência ajudando empresas a prosperarem no mundo digital. Nosso
-          compromisso é oferecer serviços de alta qualidade com foco em resultados.
-        </p>
-        <div className="flex flex-col md:flex-row gap-4 justify-center">
-          <div className="card bg-base-100 w-80 shadow-sm">
-            <div className="card-body">
-              <h2 className="card-title">Missão</h2>
-              <p>Empoderar negócios com tecnologia acessível e inovadora.</p>
-            </div>
-          </div>
-          <div className="card bg-base-100 w-80 shadow-sm">
-            <div className="card-body">
-              <h2 className="card-title">Visão</h2>
-              <p>Ser líder global em soluções tecnológicas até 2030.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Cards da Equipe */}
+      {/* Cards entre o Carrossel e o Hero */}
       <div className="flex flex-col md:flex-row gap-4 p-4 justify-center">
+        {/* Card 1 */}
         <div className="card bg-base-100 w-96 shadow-sm">
           <figure>
             <img
-              src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
-              alt="CEO"
+              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              alt="Networking"
               className="w-full h-48 object-cover"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">João Silva - CEO</h2>
-            <p>Líder visionário com mais de 10 anos na indústria tech.</p>
+            <h2 className="card-title">
+              Networking
+              <div className="badge badge-secondary">NOVO</div>
+            </h2>
+            <p>Conecte-se com profissionais e amplie sua rede de contatos.</p>
             <div className="card-actions justify-end">
-              <div className="badge badge-outline">Liderança</div>
+              <div className="badge badge-outline">Conexões</div>
+              <div className="badge badge-outline">Networking</div>
             </div>
           </div>
         </div>
+
+        {/* Card 2 */}
         <div className="card bg-base-100 w-96 shadow-sm">
           <figure>
             <img
-              src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
-              alt="Desenvolvedor"
+              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              alt="Colaboração"
               className="w-full h-48 object-cover"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Maria Oliveira - Desenvolvedora</h2>
-            <p>Especialista em React e soluções web inovadoras.</p>
+            <h2 className="card-title">
+              Colaboração
+              <div className="badge badge-secondary">NOVO</div>
+            </h2>
+            <p>Trabalhe em projetos conjuntos com outros membros da comunidade.</p>
             <div className="card-actions justify-end">
-              <div className="badge badge-outline">Desenvolvimento</div>
+              <div className="badge badge-outline">Projetos</div>
+              <div className="badge badge-outline">Equipe</div>
             </div>
           </div>
         </div>
+
+        {/* Card 3 */}
         <div className="card bg-base-100 w-96 shadow-sm">
           <figure>
             <img
-              src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
-              alt="Designer"
+              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              alt="Eventos"
               className="w-full h-48 object-cover"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Pedro Santos - Designer</h2>
-            <p>Cria interfaces modernas e user-friendly.</p>
+            <h2 className="card-title">
+              Eventos
+              <div className="badge badge-secondary">NOVO</div>
+            </h2>
+            <p>Participe de eventos e meetups organizados pela comunidade.</p>
             <div className="card-actions justify-end">
-              <div className="badge badge-outline">Design</div>
+              <div className="badge badge-outline">Meetups</div>
+              <div className="badge badge-outline">Eventos</div>
             </div>
           </div>
         </div>
@@ -137,12 +130,11 @@ function About() {
         <div className="hero-overlay"></div>
         <div className="hero-content text-neutral-content text-center">
           <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">Conheça Nossa História</h1>
+            <h1 className="mb-5 text-5xl font-bold">Página para Comunidades</h1>
             <p className="mb-5">
-              Junte-se a nós nesta jornada de inovação e cresça com a TechSolution. Estamos prontos
-              para transformar seu futuro!
+              Participe das comunidades da TechSolution e colabore com outros profissionais. Conecte-se, aprenda e cresça junto!
             </p>
-            <button className="btn btn-primary">Saiba Mais</button>
+            <button className="btn btn-primary">Junte-se Agora</button>
           </div>
         </div>
       </div>
@@ -150,4 +142,4 @@ function About() {
   );
 }
 
-export default About;
+export default Communities;

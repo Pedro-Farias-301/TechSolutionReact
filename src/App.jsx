@@ -3,9 +3,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
-import Estudantes from './pages/Estudantes';
-import Comunidade from './pages/Comunidade';
-import Mentores from './pages/Mentores';
+import Students from './pages/Students';
+import Communities from './pages/Communities';
+import Mentors from './pages/Mentors';
 import About from './pages/About';
 
 
@@ -18,9 +18,9 @@ function App() {
         <main className="flex-1">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/Estudantes" element={<Estudantes/>} />
-            <Route path="/Comunidade" element={<Comunidade/>} />
-            <Route path="/Mentores" element={<Mentores/>} />
+            <Route path="/Estudantes" element={<Students/>} />
+            <Route path="/Comunidade" element={<Communities/>} />
+            <Route path="/Mentores" element={<Mentors/>} />
             <Route path="/About" element={<About/>} />
           </Routes>
         </main>
