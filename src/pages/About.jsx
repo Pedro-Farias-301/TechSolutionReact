@@ -12,12 +12,8 @@ function About() {
             alt="Equipe 1"
           />
           <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-            <a href="#slide3" className="btn btn-circle">
-              ❮
-            </a>
-            <a href="#slide2" className="btn btn-circle">
-              ❯
-            </a>
+            <a href="#slide3" className="btn btn-circle">❮</a>
+            <a href="#slide2" className="btn btn-circle">❯</a>
           </div>
         </div>
         <div id="slide2" className="carousel-item relative w-full">
@@ -27,12 +23,8 @@ function About() {
             alt="Equipe 2"
           />
           <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-            <a href="#slide1" className="btn btn-circle">
-              ❮
-            </a>
-            <a href="#slide3" className="btn btn-circle">
-              ❯
-            </a>
+            <a href="#slide1" className="btn btn-circle">❮</a>
+            <a href="#slide3" className="btn btn-circle">❯</a>
           </div>
         </div>
         <div id="slide3" className="carousel-item relative w-full">
@@ -42,12 +34,8 @@ function About() {
             alt="Equipe 3"
           />
           <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-            <a href="#slide2" className="btn btn-circle">
-              ❮
-            </a>
-            <a href="#slide1" className="btn btn-circle">
-              ❯
-            </a>
+            <a href="#slide2" className="btn btn-circle">❮</a>
+            <a href="#slide1" className="btn btn-circle">❯</a>
           </div>
         </div>
       </div>
@@ -123,30 +111,6 @@ function About() {
             <p>Cria interfaces modernas e user-friendly.</p>
             <div className="card-actions justify-end">
               <div className="badge badge-outline">Design</div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Seção Hero com dois botões */}
-      <div
-        className="hero min-h-screen"
-        style={{
-          backgroundImage:
-            "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",
-        }}
-      >
-        <div className="hero-overlay"></div>
-        <div className="hero-content text-neutral-content text-center">
-          <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">Conheça Nossa História</h1>
-            <p className="mb-5">
-              Junte-se a nós nesta jornada de inovação e cresça com a TechSolution. Estamos prontos
-              para transformar seu futuro!
-            </p>
-            <div className="flex gap-2">
-              <button className="btn btn-neutral flex-1">Fazer Login</button>
-              <Link to="/signup" className="btn btn-primary flex-1">Inscrever-se</Link>
             </div>
           </div>
         </div>

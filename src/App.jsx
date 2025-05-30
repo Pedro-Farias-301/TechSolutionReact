@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Hero from './components/Hero'
 import Footer from './components/Footer';
 import Navbar from './components/Navbar'
 import Home from './pages/Home';
@@ -14,6 +15,7 @@ function App() {
     <BrowserRouter>
       <div className="data-theme-techsolution">
         <Navbar/>
+        <Hero/>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />

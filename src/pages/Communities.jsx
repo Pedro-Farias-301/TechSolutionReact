@@ -12,12 +12,8 @@ function Communities() {
             alt="Comunidade 1"
           />
           <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-            <a href="#slide3" className="btn btn-circle">
-              ❮
-            </a>
-            <a href="#slide2" className="btn btn-circle">
-              ❯
-            </a>
+            <a href="#slide3" className="btn btn-circle">❮</a>
+            <a href="#slide2" className="btn btn-circle">❯</a>
           </div>
         </div>
         <div id="slide2" className="carousel-item relative w-full">
@@ -27,12 +23,8 @@ function Communities() {
             alt="Comunidade 2"
           />
           <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-            <a href="#slide1" className="btn btn-circle">
-              ❮
-            </a>
-            <a href="#slide3" className="btn btn-circle">
-              ❯
-            </a>
+            <a href="#slide1" className="btn btn-circle">❮</a>
+            <a href="#slide3" className="btn btn-circle">❯</a>
           </div>
         </div>
         <div id="slide3" className="carousel-item relative w-full">
@@ -42,17 +34,13 @@ function Communities() {
             alt="Comunidade 3"
           />
           <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-            <a href="#slide2" className="btn btn-circle">
-              ❮
-            </a>
-            <a href="#slide1" className="btn btn-circle">
-              ❯
-            </a>
+            <a href="#slide2" className="btn btn-circle">❮</a>
+            <a href="#slide1" className="btn btn-circle">❯</a>
           </div>
         </div>
       </div>
 
-      {/* Cards entre o Carrossel e o Hero */}
+      {/* Cards */}
       <div className="flex flex-col md:flex-row gap-4 p-4 justify-center">
         <div className="card bg-base-100 w-96 shadow-sm">
           <figure>
@@ -112,30 +100,6 @@ function Communities() {
               <div className="badge badge-outline">Meetups</div>
               <div className="badge badge-outline">Eventos</div>
             </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Seção Hero com dois botões */}
-      <div
-        className="hero min-h-screen"
-        style={{
-          backgroundImage:
-            "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",
-        }}
-      >
-        <div className="hero-overlay"></div>
-        <div className="hero-content text-neutral-content text-center">
-          <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">Página para Comunidades</h1>
-            <p className="mb-5">
-              Participe das comunidades da TechSolution e colabore com outros profissionais.
-              Conecte-se, aprenda e cresça junto!
-            </p>
-            <div className="flex gap-2 mt-4">
-            <Link to="/login" className="btn btn-neutral flex-1">Fazer Login</Link>
-            <Link to="/signup" className="btn btn-primary flex-1">Inscrever-se</Link>
-          </div>
           </div>
         </div>
       </div>
