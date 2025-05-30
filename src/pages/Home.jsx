@@ -17,9 +17,9 @@ function Home() {
 
       {/* Seção dos Badges */}
       <div className="flex gap-4 p-4 justify-center">
-        <div className="badge badge-secondary text-white">Comunidade</div>
-        <div className="badge badge-secondary text-white">Estudante</div>
-        <div className="badge badge-secondary text-white">Mentores</div>
+        <div className="badge badge-primary text-white">Comunidade</div>
+        <div className="badge badge-primary text-white">Estudante</div>
+        <div className="badge badge-primary text-white">Mentores</div>
       </div>
 
       {/* Seção dos Cards */}
