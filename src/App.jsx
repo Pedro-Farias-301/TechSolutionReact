@@ -1,35 +1,30 @@
-import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Navbar from './components/Navbar'
 import Home from './pages/Home';
+import About from './pages/About';
 import Students from './pages/Students';
-import Communities from './pages/Communities';
 import Mentors from './pages/Mentors';
+import Communities from './pages/Communities';
 import Signup from './pages/Signup';
 import Login from './pages/Login';
-import About from './pages/About';
-
-
 
 function App() {
   return (
     <BrowserRouter>
-      <div className="flex flex-col min-h-screen">
-        <Navbar />
-        <main className="flex-1">
+      <div className="data-theme-techsolution">
+        <Navbar/>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/Estudantes" element={<Students/>} />
-            <Route path="/Comunidade" element={<Communities/>} />
-            <Route path="/Mentores" element={<Mentors/>} />
-            <Route path="/About" element={<About/>} />
+            <Route path="/about" element={<About />} />
+            <Route path="/students" element={<Students />} />
+            <Route path="/mentors" element={<Mentors />} />
+            <Route path="/communities" element={<Communities />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/login" element={<Login />} />
             <Route path="/portfolio" element={<div>Portfolio</div>} />
           </Routes>
-        </main>
-        <Footer />
+          <Footer/>
       </div>
     </BrowserRouter>
   );
