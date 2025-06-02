@@ -18,9 +18,9 @@ function Home() {
 
       {/* Seção dos Badges */}
       <div className="flex gap-4 p-4 justify-center">
-        <div className="badge badge-secondary text-white">Comunidade</div>
-        <div className="badge badge-secondary text-white">Estudante</div>
-        <div className="badge badge-secondary text-white">Mentores</div>
+        <div className="badge badge-primary text-white">Estudantes</div>
+        <div className="badge badge-primary text-white">Comunidade</div>
+        <div className="badge badge-primary text-white">Mentores</div>
       </div>
 
       {/* Seção dos Cards */}
@@ -29,20 +29,20 @@ function Home() {
         <div className="card bg-base-100 w-96 shadow-sm">
           <figure>
             <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              src='/public/slide1.jpg'
               alt="Software"
               className="w-full h-48 object-cover"
             />
           </figure>
           <div className="card-body">
             <h2 className="card-title">
-              Solução 1
-              <div className="badge badge-secondary">NEW</div>
+              Estudantes
+              <div className="badge badge-primary"></div>
             </h2>
-            <p>Desenvolvimento de software personalizado para atender às suas necessidades específicas.</p>
+            <p>Construa um portfólio que mostre seu talento e conquiste oportunidades únicas!</p>
             <div className="card-actions justify-end">
               <div className="badge badge-outline">Software</div>
-              <div className="badge badge-outline">Customização</div>
+              <div className="badge badge-outline">Desenvolvimento</div>
             </div>
           </div>
         </div>
@@ -51,20 +51,20 @@ function Home() {
         <div className="card bg-base-100 w-96 shadow-sm">
           <figure>
             <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              src="/public/slide2.jfif"
               alt="Consultoria"
               className="w-full h-48 object-cover"
             />
           </figure>
           <div className="card-body">
             <h2 className="card-title">
-              Solução 2
-              <div className="badge badge-secondary">NEW</div>
+              Comunidade
+              <div className="badge badge-primary"></div>
             </h2>
-            <p>Consultoria em TI para otimizar sua infraestrutura e processos tecnológicos.</p>
+            <p>Leve suas ideias ao próximo nível com soluções tecnológicas sob medida.</p>
             <div className="card-actions justify-end">
-              <div className="badge badge-outline">Consultoria</div>
-              <div className="badge badge-outline">TI</div>
+              <div className="badge badge-outline">Negicios</div>
+              <div className="badge badge-outline">Soluções Tecnologicas</div>
             </div>
           </div>
         </div>
@@ -73,20 +73,20 @@ function Home() {
         <div className="card bg-base-100 w-96 shadow-sm">
           <figure>
             <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              src="/public/slide3.jfif"
               alt="Cloud"
               className="w-full h-48 object-cover"
             />
           </figure>
           <div className="card-body">
             <h2 className="card-title">
-              Solução 3
-              <div className="badge badge-secondary">NEW</div>
+              Mentores
+              <div className="badge badge-primary"></div>
             </h2>
-            <p>Soluções em nuvem para maior escalabilidade e segurança dos seus dados.</p>
+            <p>Inspire e guie a nova geração de profissionais em projetos desafiadores.</p>
             <div className="card-actions justify-end">
-              <div className="badge badge-outline">Cloud</div>
-              <div className="badge badge-outline">Segurança</div>
+              <div className="badge badge-outline">Mentoria</div>
+              <div className="badge badge-outline">Liderança</div>
             </div>
           </div>
         </div>
