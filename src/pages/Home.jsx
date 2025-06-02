@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 function Home() {
   return (
     <div className="flex flex-col items-center bg-base-200 min-h-screen">
-      {/* Seção Hero Inicial (mantida, mas será substituída pelo Hero do Layout) */}
       <div className="hero bg-base-200 min-h-[50vh]">
         <div className="hero-content flex-col lg:flex-row">
           <div className="text-center lg:text-left">

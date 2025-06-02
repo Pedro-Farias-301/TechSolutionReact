@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 function About() {
   return (
     <div>
-      {/* Carrossel */}
       <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-full">
           <img
@@ -39,8 +38,6 @@ function About() {
           </div>
         </div>
       </div>
-
-      {/* Seção de Texto e Missão/Visão */}
       <div className="p-4 text-center">
         <h1 className="text-4xl font-bold mb-4">Sobre a TechSolution</h1>
         <p className="mb-4">
@@ -63,8 +60,6 @@ function About() {
           </div>
         </div>
       </div>
-
-      {/* Cards da Equipe */}
       <div className="flex flex-col md:flex-row gap-4 p-4 justify-center">
         <div className="card bg-base-100 w-96 shadow-sm">
           <figure>

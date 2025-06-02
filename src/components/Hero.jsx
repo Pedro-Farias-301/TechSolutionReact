@@ -5,15 +5,15 @@ function Hero() {
   const location = useLocation();
   const isAboutPage = location.pathname === '/about';
 
-  // Estado para os campos do formulário
+
   const [formData, setFormData] = useState({
     fullName: '',
     email: '',
-    role: 'Membro da comunidade', // Valor padrão
+    role: 'Membro da comunidade', 
     phone: ''
   });
 
-  // Função para atualizar os dados do formulário
+ 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({
@@ -22,29 +22,29 @@ function Hero() {
     }));
   };
 
-  // Função para enviar o formulário ao Google Forms
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // URL do Google Forms (substitua pelo seu URL)
+    
     const googleFormUrl = 'https://docs.google.com/forms/d/e/FORM_ID/formResponse';
 
-    // IDs dos campos do Google Forms (substitua pelos IDs corretos)
+    
     const formBody = new URLSearchParams({
-      'entry.123456789': formData.fullName, // Nome completo
-      'entry.987654321': formData.email,    // Email
-      'entry.456789123': formData.role,     // Você é (Membro da comunidade, Estudante, Mentor)
-      'entry.321654987': formData.phone     // Telefone
+      'entry.123456789': formData.fullName, 
+      'entry.987654321': formData.email,    
+      'entry.456789123': formData.role,     
+      'entry.321654987': formData.phone    
     });
 
     try {
       const response = await fetch(googleFormUrl, {
         method: 'POST',
         body: formBody,
-        mode: 'no-cors' // Necessário para evitar problemas com CORS
+        mode: 'no-cors' 
       });
       alert('Formulário enviado com sucesso!');
-      // Limpar o formulário após envio
+    
       setFormData({
         fullName: '',
         email: '',

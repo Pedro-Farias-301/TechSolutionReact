@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 function Students() {
   return (
     <div>
-      {/* Carrossel */}
       <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-full">
           <img
@@ -43,7 +42,7 @@ function Students() {
         </div>
       </div>
 
-      {/* Cards */}
+     
       <div className="flex flex-col md:flex-row gap-4 p-4 justify-center">
         <div className="card bg-base-100 w-96 shadow-sm">
           <figure>
