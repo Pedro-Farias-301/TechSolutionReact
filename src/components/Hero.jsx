@@ -27,14 +27,13 @@ function Hero() {
     e.preventDefault();
 
     
-    const googleFormUrl = 'https://docs.google.com/forms/d/e/FORM_ID/formResponse';
-
+    const googleFormUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSe39f0DqhLfEb1cy2gKveNBp9fJFNJtLhfZd6zQYDN3ThrWxg/formResponse';
     
     const formBody = new URLSearchParams({
-      'entry.123456789': formData.fullName, 
-      'entry.987654321': formData.email,    
-      'entry.456789123': formData.role,     
-      'entry.321654987': formData.phone    
+      'entry.585719826': formData.fullName, 
+      'entry.999077649': formData.email,    
+      'entry.676528212': formData.role,     
+      'entry.351666918': formData.phone    
     });
 
     try {
@@ -61,14 +60,14 @@ function Hero() {
     <div
       className="hero min-h-[50vh]"
       style={{
-        backgroundImage: "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",
+        backgroundImage: "url(https://img.freepik.com/vetores-premium/fundo-de-conceito-futuro-tecnologia-cyber-circuito-roxo_42077-4016.jpg)",
       }}
     >
       <div className="hero-overlay"></div>
       <div className="hero-content text-neutral-content text-center">
         <div className="max-w-md">
-          <h1 className="mb-5 text-5xl font-bold">Bem-vindo à TechSolution</h1>
-          <p className="mb-5">
+          <h1 className="mb-5 text-5xl font-bold text-yellow-500">Bem-vindo à TechSolution</h1>
+          <p className="mb-5 text-yellow-500">
             Uma plataforma projetada para conectar estudantes, comunidade e mentores, criando soluções e oportunidades para todos. Se tiver dúvidas, deixe seu contato!
           </p>
           {!isAboutPage && (
@@ -76,17 +75,17 @@ function Hero() {
               <div className="card-body">
                 <form onSubmit={handleSubmit}>
                   <fieldset className="fieldset">
-                    <label className="label">Nome completo</label>
+                    <label className="label text-yellow-500">Nome completo</label>
                     <input
                       type="text"
                       name="fullName"
-                      className="input"
+                      className="input "
                       placeholder="Nome completo"
                       value={formData.fullName}
                       onChange={handleChange}
                       required
                     />
-                    <label className="label">Email</label>
+                    <label className="label text-yellow-500">Email</label>
                     <input
                       type="email"
                       name="email"
@@ -96,10 +95,10 @@ function Hero() {
                       onChange={handleChange}
                       required
                     />
-                    <label className="label">Você é</label>
+                    <label className="label text-yellow-500">Você é</label>
                     <select
                       name="role"
-                      className="select select-bordered w-full"
+                      className="select select-bordered w-full text-yellow-500"
                       value={formData.role}
                       onChange={handleChange}
                       required
@@ -108,7 +107,7 @@ function Hero() {
                       <option value="Estudante">Estudante</option>
                       <option value="Mentor">Mentor</option>
                     </select>
-                    <label className="label">Telefone</label>
+                    <label className="label text-yellow-500">Telefone</label>
                     <input
                       type="tel"
                       name="phone"
@@ -119,7 +118,7 @@ function Hero() {
                       required
                     />
                     <div className="flex gap-2 mt-4">
-                      <button type="submit" className="btn btn-neutral flex-1">
+                      <button type="submit" className="btn btn-neutral flex-1 text-yellow-500">
                         Enviar
                       </button>
                     </div>
