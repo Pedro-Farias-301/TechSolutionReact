@@ -66,8 +66,8 @@ function Hero() {
       <div className="hero-overlay"></div>
       <div className="hero-content text-neutral-content text-center">
         <div className="max-w-md">
-          <h1 className="mb-5 text-5xl font-bold text-yellow-500">Bem-vindo à TechSolution</h1>
-          <p className="mb-5 text-yellow-500">
+          <h1 className="mb-5 text-5xl font-bold">Bem-vindo à TechSolution</h1>
+          <p className="mb-5">
             Uma plataforma projetada para conectar estudantes, comunidade e mentores, criando soluções e oportunidades para todos. Se tiver dúvidas, deixe seu contato!
           </p>
           {!isAboutPage && (
@@ -75,7 +75,7 @@ function Hero() {
               <div className="card-body">
                 <form onSubmit={handleSubmit}>
                   <fieldset className="fieldset">
-                    <label className="label text-yellow-500">Nome completo</label>
+                    <label className="label">Nome completo</label>
                     <input
                       type="text"
                       name="fullName"
@@ -85,7 +85,7 @@ function Hero() {
                       onChange={handleChange}
                       required
                     />
-                    <label className="label text-yellow-500">Email</label>
+                    <label className="label">Email</label>
                     <input
                       type="email"
                       name="email"
@@ -95,10 +95,10 @@ function Hero() {
                       onChange={handleChange}
                       required
                     />
-                    <label className="label text-yellow-500">Você é</label>
+                    <label className="label">Você é</label>
                     <select
                       name="role"
-                      className="select select-bordered w-full text-yellow-500"
+                      className="select select-bordered w-full"
                       value={formData.role}
                       onChange={handleChange}
                       required
@@ -107,7 +107,7 @@ function Hero() {
                       <option value="Estudante">Estudante</option>
                       <option value="Mentor">Mentor</option>
                     </select>
-                    <label className="label text-yellow-500">Telefone</label>
+                    <label className="label">Telefone</label>
                     <input
                       type="tel"
                       name="phone"
@@ -118,7 +118,7 @@ function Hero() {
                       required
                     />
                     <div className="flex gap-2 mt-4">
-                      <button type="submit" className="btn btn-neutral flex-1 text-yellow-500">
+                      <button type="submit" className="btn btn-neutral flex-1">
                         Enviar
                       </button>
                     </div>
