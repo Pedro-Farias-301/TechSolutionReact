@@ -7,7 +7,7 @@ function Communities() {
       <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-full">
           <img
-            src="https://img.daisyui.com/images/stock/photo-1625726411847-3d28f9e4895e.webp"
+            src="https://academiatech.s3.amazonaws.com/wp-content/uploads/2023/06/mulher-computador-24062023-649b65bf8e1ad-1024x576.webp"
             className="w-full h-64 object-cover"
             alt="Comunidade 1"
           />
@@ -18,7 +18,7 @@ function Communities() {
         </div>
         <div id="slide2" className="carousel-item relative w-full">
           <img
-            src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1705.webp"
+            src="https://academiatech.s3.amazonaws.com/wp-content/uploads/2023/10/homem-computador-23102023-6536b66c49549.webp"
             className="w-full h-64 object-cover"
             alt="Comunidade 2"
           />
@@ -29,7 +29,7 @@ function Communities() {
         </div>
         <div id="slide3" className="carousel-item relative w-full">
           <img
-            src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
+            src="https://wordpress-cms-revista-prod-assets.quero.space/legacy_posts/post_images/41144/4651d2a2d188dadf1fa0af405f0f722a25517843.jpg?1660153136"
             className="w-full h-64 object-cover"
             alt="Comunidade 3"
           />
@@ -45,7 +45,7 @@ function Communities() {
         <div className="card bg-base-100 w-96 shadow-sm">
           <figure>
             <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              src="https://portal.pucrs.br/wp-content/uploads/2024/07/ages-engenharia-de-software-2.png"
               alt="Networking"
               className="w-full h-48 object-cover"
             />
@@ -65,7 +65,7 @@ function Communities() {
         <div className="card bg-base-100 w-96 shadow-sm">
           <figure>
             <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              src="https://anhanguera.s3.amazonaws.com/wp-content/uploads/2024/08/necessidades-dos-usuarios-de-forma-mais-agil-engenheiros-de-software-29-08-2024-66d1080a85498.webp"
               alt="Colaboração"
               className="w-full h-48 object-cover"
             />
@@ -85,7 +85,7 @@ function Communities() {
         <div className="card bg-base-100 w-96 shadow-sm">
           <figure>
             <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxQPImMc1fWXY0_tPz1ftEaxl062qjODbWbRQSJcGa7LNwa48-ODfTkM6l13pXavU9L4Q&usqp=CAU"
               alt="Eventos"
               className="w-full h-48 object-cover"
             />

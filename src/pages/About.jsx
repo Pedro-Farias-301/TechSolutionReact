@@ -6,7 +6,7 @@ function About() {
       <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-full">
           <img
-            src="https://img.daisyui.com/images/stock/photo-1625726411847-3d28f9e4895e.webp"
+            src="https://academiatech.s3.amazonaws.com/wp-content/uploads/2023/06/mulher-computador-24062023-649b65bf8e1ad-1024x576.webp"
             className="w-full h-64 object-cover"
             alt="Equipe 1"
           />
@@ -17,7 +17,7 @@ function About() {
         </div>
         <div id="slide2" className="carousel-item relative w-full">
           <img
-            src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1705.webp"
+            src="https://academiatech.s3.amazonaws.com/wp-content/uploads/2023/10/homem-computador-23102023-6536b66c49549.webp"
             className="w-full h-64 object-cover"
             alt="Equipe 2"
           />
@@ -28,7 +28,7 @@ function About() {
         </div>
         <div id="slide3" className="carousel-item relative w-full">
           <img
-            src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
+            src="https://wordpress-cms-revista-prod-assets.quero.space/legacy_posts/post_images/41144/4651d2a2d188dadf1fa0af405f0f722a25517843.jpg?1660153136"
             className="w-full h-64 object-cover"
             alt="Equipe 3"
           />
@@ -41,21 +41,20 @@ function About() {
       <div className="p-4 text-center">
         <h1 className="text-4xl font-bold mb-4">Sobre a TechSolution</h1>
         <p className="mb-4">
-          Fundada com a missão de transformar ideias em soluções tecnológicas inovadoras, a
-          TechSolution tem mais de 5 anos de experiência ajudando empresas a prosperarem no mundo
-          digital. Nosso compromisso é oferecer serviços de alta qualidade com foco em resultados.
+          Fundada com a missão de transformar ideias da Comunidade em soluções tecnológicas inovadoras,
+          usando o conhecimento dos jovem estudantes e lideres para criar mais experiencias e criar uma comunidade tecnologica.
         </p>
         <div className="flex flex-col md:flex-row gap-4 justify-center">
           <div className="card bg-base-100 w-80 shadow-sm">
             <div className="card-body">
               <h2 className="card-title">Missão</h2>
-              <p>Empoderar negócios com tecnologia acessível e inovadora.</p>
+              <p>Empoderar negócios com tecnologia, e criar novos profissionais capaciados.</p>
             </div>
           </div>
           <div className="card bg-base-100 w-80 shadow-sm">
             <div className="card-body">
               <h2 className="card-title">Visão</h2>
-              <p>Ser líder global em soluções tecnológicas até 2030.</p>
+              <p>Ajudar no crescimento de mais de 1000 estudantes ate 2030.</p>
             </div>
           </div>
         </div>
@@ -64,14 +63,14 @@ function About() {
         <div className="card bg-base-100 w-96 shadow-sm">
           <figure>
             <img
-              src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+              src="/public/eduardo.jpeg"
               alt="CEO"
               className="w-full h-48 object-cover"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">João Silva - CEO</h2>
-            <p>Líder visionário com mais de 10 anos na indústria tech.</p>
+            <h2 className="card-title">Eduardo Faria - CEO</h2>
+            <p>Líder visionário com mais de 20 anos na indústria tech.</p>
             <div className="card-actions justify-end">
               <div className="badge badge-outline">Liderança</div>
             </div>
@@ -80,13 +79,13 @@ function About() {
         <div className="card bg-base-100 w-96 shadow-sm">
           <figure>
             <img
-              src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+              src="/public/pedro.jpeg"
               alt="Desenvolvedor"
               className="w-full h-48 object-cover"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Maria Oliveira - Desenvolvedora</h2>
+            <h2 className="card-title">Pedro - Desenvolvedor</h2>
             <p>Especialista em React e soluções web inovadoras.</p>
             <div className="card-actions justify-end">
               <div className="badge badge-outline">Desenvolvimento</div>
@@ -96,13 +95,13 @@ function About() {
         <div className="card bg-base-100 w-96 shadow-sm">
           <figure>
             <img
-              src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+              src="/public/marcos.jpeg"
               alt="Designer"
               className="w-full h-48 object-cover"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Pedro Santos - Designer</h2>
+            <h2 className="card-title">Marcos Estrela - Designer</h2>
             <p>Cria interfaces modernas e user-friendly.</p>
             <div className="card-actions justify-end">
               <div className="badge badge-outline">Design</div>

@@ -7,7 +7,7 @@ function Mentors() {
       <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-full">
           <img
-            src="https://img.daisyui.com/images/stock/photo-1625726411847-3d28f9e4895e.webp"
+            src="https://academiatech.s3.amazonaws.com/wp-content/uploads/2023/06/mulher-computador-24062023-649b65bf8e1ad-1024x576.webp"
             className="w-full h-64 object-cover"
             alt="Mentores 1"
           />
@@ -18,7 +18,7 @@ function Mentors() {
         </div>
         <div id="slide2" className="carousel-item relative w-full">
           <img
-            src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1705.webp"
+            src="https://academiatech.s3.amazonaws.com/wp-content/uploads/2023/10/homem-computador-23102023-6536b66c49549.webp"
             className="w-full h-64 object-cover"
             alt="Mentores 2"
           />
@@ -29,7 +29,7 @@ function Mentors() {
         </div>
         <div id="slide3" className="carousel-item relative w-full">
           <img
-            src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
+            src="https://wordpress-cms-revista-prod-assets.quero.space/legacy_posts/post_images/41144/4651d2a2d188dadf1fa0af405f0f722a25517843.jpg?1660153136"
             className="w-full h-64 object-cover"
             alt="Mentores 3"
           />
@@ -45,7 +45,7 @@ function Mentors() {
         <div className="card bg-base-100 w-96 shadow-sm">
           <figure>
             <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              src="https://faculdadeinfnet.com.br/wp-content/uploads/sites/10/2021/06/engenheiro-trabalhando-engenharia-de-software.jpg"
               alt="Orientação"
               className="w-full h-48 object-cover"
             />
@@ -65,7 +65,7 @@ function Mentors() {
         <div className="card bg-base-100 w-96 shadow-sm">
           <figure>
             <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              src="https://cdn2.hubspot.net/hubfs/2961792/eng-software-curso-undb.jpg"
               alt="Workshops"
               className="w-full h-48 object-cover"
             />
@@ -85,7 +85,7 @@ function Mentors() {
         <div className="card bg-base-100 w-96 shadow-sm">
           <figure>
             <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaBY65yHMO6lJ2b37-1_cSycmd--YGe21o1qRYZvWgoKajZEcK9YgSExnHVjUANBLCyD4&usqp=CAU"
               alt="Suporte"
               className="w-full h-48 object-cover"
             />

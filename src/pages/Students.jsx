@@ -6,7 +6,7 @@ function Students() {
       <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-full">
           <img
-            src="/carousel-student-1.webp"
+            src="https://academiatech.s3.amazonaws.com/wp-content/uploads/2023/06/mulher-computador-24062023-649b65bf8e1ad-1024x576.webp"
             className="w-full h-64 object-cover object-center"
             alt="Estudantes 1"
             loading="lazy"
@@ -18,7 +18,7 @@ function Students() {
         </div>
         <div id="slide2" className="carousel-item relative w-full">
           <img
-            src="/carousel-student-2.webp"
+            src="https://academiatech.s3.amazonaws.com/wp-content/uploads/2023/10/homem-computador-23102023-6536b66c49549.webp"
             className="w-full h-64 object-cover object-center"
             alt="Estudantes 2"
             loading="lazy"
@@ -30,7 +30,7 @@ function Students() {
         </div>
         <div id="slide3" className="carousel-item relative w-full">
           <img
-            src="/carousel-student-3.webp"
+            src="https://wordpress-cms-revista-prod-assets.quero.space/legacy_posts/post_images/41144/4651d2a2d188dadf1fa0af405f0f722a25517843.jpg?1660153136"
             className="w-full h-64 object-cover object-center"
             alt="Estudantes 3"
             loading="lazy"
@@ -47,7 +47,7 @@ function Students() {
         <div className="card bg-base-100 w-96 shadow-sm">
           <figure>
             <img
-              src="/card-resources.webp"
+              src="https://portal.pucrs.br/wp-content/uploads/2024/07/ages-engenharia-de-software-2.png"
               alt="Recursos"
               className="w-full h-48 object-cover object-center"
               loading="lazy"
@@ -68,7 +68,7 @@ function Students() {
         <div className="card bg-base-100 w-96 shadow-sm">
           <figure>
             <img
-              src="/card-support.webp"
+              src="https://cdn.portal.estacio.br/E_necessario_saber_programar_antes_de_comecar_o_curso_mobile_8534e28d1d.png"
               alt="Suporte"
               className="w-full h-48 object-cover object-center"
               loading="lazy"
@@ -89,7 +89,7 @@ function Students() {
         <div className="card bg-base-100 w-96 shadow-sm">
           <figure>
             <img
-              src="/card-opportunities.webp"
+              src="https://static.mundoeducacao.uol.com.br/vestibular/2021/04/1-engenheiro-de-computacao.jpg"
               alt="Oportunidades"
               className="w-full h-48 object-cover object-center"
               loading="lazy"
