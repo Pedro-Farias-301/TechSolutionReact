@@ -3,30 +3,19 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main # Ou o branch que você usa como principal
+      - main
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
-          node-version: '20' # Use a versão recente do Node.js compatível com Vite
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Build
-        run: npm run build
-        env:
-          VITE_BASE_URL: /nome-do-repositorio/ # Substitua pelo nome do seu repositório
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+          node-version: '14'
+      - run: npm install
+      - run: npm run build
+      - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist # Pasta gerada pelo build do Vite
+          publish_dir: ./public
