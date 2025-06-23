@@ -24,7 +24,6 @@ function App() {
             <Route path="/communities" element={<Communities />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/login" element={<Login />} />
-            <Route path="/portfolio" element={<div>Portfolio</div>} />
           </Routes>
           <Footer/>
       </div>

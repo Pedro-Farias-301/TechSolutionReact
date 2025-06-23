@@ -34,7 +34,8 @@ function Navbar() {
             <li><Link to="/mentors">Mentores</Link></li>
             <li><Link to="/communities">Comunidade</Link></li>
             <li><Link to="/about">Sobre nós</Link></li>
-      
+            <li><Link to="/Login">Entra</Link></li>
+            <li><Link to="/Signup">Cadastre-se</Link></li>
           </ul>
         </div>
       </div>  
