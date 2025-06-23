@@ -28,7 +28,7 @@ function Home() {
         <div className="card bg-base-100 w-96 shadow-sm">
           <figure>
             <img
-              src='/public/slide1.jpg'
+              src="https://faculdadeinfnet.com.br/wp-content/uploads/sites/10/2021/06/engenheiro-trabalhando-engenharia-de-software.jpg"
               alt="Software"
               className="w-full h-48 object-cover"
             />
@@ -50,7 +50,7 @@ function Home() {
         <div className="card bg-base-100 w-96 shadow-sm">
           <figure>
             <img
-              src="/public/slide2.jfif"
+              src="https://cdn2.hubspot.net/hubfs/2961792/eng-software-curso-undb.jpg"
               alt="Consultoria"
               className="w-full h-48 object-cover"
             />
@@ -72,7 +72,7 @@ function Home() {
         <div className="card bg-base-100 w-96 shadow-sm">
           <figure>
             <img
-              src="/public/slide3.jfif"
+              src="https://faculdadeinfnet.com.br/wp-content/uploads/sites/10/2021/06/engenheiro-trabalhando-engenharia-de-software.jpg"
               alt="Cloud"
               className="w-full h-48 object-cover"
             />
