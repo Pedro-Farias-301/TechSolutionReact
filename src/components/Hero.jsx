@@ -103,11 +103,12 @@ function Hero() {
                       onChange={handleChange}
                       required
                     >
-                      <option value="Membro da comunidade">Membro da comunidade</option>
-                      <option value="Estudante">Estudante</option>
-                      <option value="Mentor">Mentor</option>
+                      <option value="Membro da comunidade">Membro da comunidade.</option>
+                      <option value="Estudante">Estudante.</option>
+                      <option value="Mentor">Mentor.</option>
                     </select>
-                    <label className="label">Telefone</label>
+                    <label className="label">Telefone.
+                    </label>
                     <input
                       type="tel"
                       name="phone"
