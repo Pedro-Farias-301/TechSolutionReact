@@ -5,7 +5,7 @@ function Login() {
     <div className="min-h-screen bg-base-200 flex items-center justify-center">
       <div className="card bg-base-100 w-full max-w-sm shadow-2xl">
         <div className="card-body">
-          <h1 className="text-3xl font-bold text-center">Faça Login na TechSolution</h1>
+          <h1 className="text-3xl font-bold text-center">Faça Login na TechSolution!</h1>
           <fieldset className="fieldset">
             <label className="label">Email</label>
             <input type="email" className="input" placeholder="Email" />
