@@ -68,7 +68,8 @@ function Hero() {
         <div className="max-w-md">
           <h1 className="mb-5 text-5xl font-bold">Bem-vindo à TechSolution!!</h1>
           <p className="mb-5">
-            Uma plataforma projetada para conectar estudantes, comunidade e mentores, criando soluções e oportunidades para todos. Se tiver dúvidas, deixe seu contato!
+            Uma plataforma projetada para conectar estudantes, comunidade e mentores, criando soluções e oportunidades para todos. 
+            Se tiver dúvidas, deixe seu contato!
           </p>
           {!isAboutPage && (
             <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
