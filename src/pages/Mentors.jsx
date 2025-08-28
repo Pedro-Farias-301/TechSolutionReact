@@ -52,10 +52,10 @@ function Mentors() {
           </figure>
           <div className="card-body">
             <h2 className="card-title">
-              Orientação Profissional
+              Orientação Profissional!
               <div className="badge badge-secondary">NOVO</div>
             </h2>
-            <p>Receba orientação personalizada de mentores experientes.</p>
+            <p>Receba orientação personalizada de mentores experientes!</p>
             <div className="card-actions justify-end">
               <div className="badge badge-outline">Carreira</div>
               <div className="badge badge-outline">Mentoria</div>
